@@ -177,3 +177,37 @@
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
   background: var(--primary);
 }
+
+@media screen and (max-width:450px) {
+  #tranding .tranding-slider {
+    height: 50rem;
+    width: 98rem;
+    padding: 2rem 0;
+    position: relative;
+  }
+  .tranding-slide .tranding-slide-img img {
+    width: 8rem;
+    height: 13rem;
+    border-radius: 2rem;
+    object-fit: cover;
+    margin-left: -24rem;
+  }
+}
+
+
+/* @media (max-width:420){
+  .content .content-left{
+    width: auto;
+    padding-top: 0px;
+    padding-left: 100px;
+  }
+  .content .content-left  h2{
+    font-size: 1rem;
+    font-weight: 800;
+    color: aliceblue;
+    padding: 8px 8px;
+    text-align: justify;
+    margin-top: 3rem;
+    margin-left: -5rem;
+   }
+} */
