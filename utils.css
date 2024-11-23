@@ -102,3 +102,29 @@
 .icons1 li:nth-child(4) a:before {
     background: #dd4b39;
   }
+
+@media screen and (max-width: 420px) {
+    .icons1 {
+        margin-top: 9rem;
+        margin-left: 4rem;
+    }
+    .icons1 li{
+      margin-top: -4rem;
+    }
+    .icons1 li a {
+      width: 43px;
+        height: 43px;
+        background-color: #fff;
+        text-align: center;
+        line-height: 48px;
+        font-size: 27px;
+        margin: 0 10px;
+        display: block;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        border: 2px solid #fff;
+        z-index: 1;
+    }
+    
+}
